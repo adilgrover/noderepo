@@ -40,6 +40,8 @@ exports.getAllTours = (req,res)=>{
       },
     });
   }
+  console.log("test");
+  
   
   exports.createTour = (req, res) => {
     const newId = tours[tours.length - 1].id + 1;

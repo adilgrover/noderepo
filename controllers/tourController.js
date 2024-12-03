@@ -40,7 +40,7 @@ exports.getAllTours = (req,res)=>{
       },
     });
   }
-  console.log("test");
+
   
   
   exports.createTour = (req, res) => {

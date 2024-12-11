@@ -4,12 +4,20 @@
   "description": "node project",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.6",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
     "express": "^4.21.1",
+    "mongoose": "^6.13.5",
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.16.0",
+    "prettier": "^3.4.1"
   }
 }

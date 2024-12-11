@@ -1,0 +1,14 @@
+mongo db is a nosql database , in mongo ecah databse can contaon on or more collections (collection is basically a table of data).
+each collection can contain one or more data structures called documents, a document is basically a row in a table,
+each document contain information of one single entity example one post ,one user ,one review
+
+
+
+cluster is basically instance of our database
+
+mongo "mongodb+srv://cluster0.d36fq.mongodb.net/" --username adilgro
+
+
+ mongodb+srv://adilgro:haOCW3vPXRq93ykD@cluster0.d36fq.mongodb.net/
+
+ mongosh "mongodb+srv://cluster0.d36fq.mongodb.net/" --apiVersion 1 --username adilgro
